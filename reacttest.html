@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h1>1.)What is react</h1>
+<pre>*ReactJS is an open source.
+*Javascript Library used for building single page web applications.
+*react published in 2013.</pre>
+<h1>2.)What is component</h1>
+<pre>Components are independent and reusable bits of code. 
+They serve the same purpose as JavaScript functions, but work in isolation and return HTML.
+there are two types components
+1.)function components
+2.)Class components </pre>
+<h1>3.)Write function syntax.</h1>
+<script>
+import React from 'react'
+const Navbar=()=>{
+return(
+<div>
+<h1>"Welcome"</h1>
+</div>
+)
+}
+export default Navbar
+</script>
+<h1>4.)Write class syntax.</h1>
+<script>
+import React,{Component} from 'react'
+class Home extends Component {
+render(){
+return(
+<div>
+<h1> "HI"</h1>
+</div>
+)
+}
+}
+export default Home
+</script>
+<h1>5.)Write example of internal style.</h1>
+<script>
+const a=()=>{
+const button={color: "white",
+backgroundColor: "DodgerBlue",
+padding: "10px"}
+return (
+<div style={button}>
+<h1>" welcome"</h1>
+</div>
+)
+}
+</script>
+<h1>6.)What is JSX</h1>
+<pre>*JavaScript syntax Extension
+*JSX is a combination of HTML and JavaScript.
+*javascript objects inside the HTML element can be element.
+*JSX is not supported by the browsers.
+*JSX makes code easy and Understandable.
+*HTML and Javascript easy to learn in the JSx.</pre>
+<h1>7.)What are the advantages of react?</h1>
+<pre>*Code reusable
+*Single-Page web application
+*Cost effective,It is Simple.
+*used in the library.
+*best advantages is virtual Dom.</pre>
+<h1>8.)Difference between real dom and virtual dom.</h1>
+<h2>VIRTUAL DOM</h2>
+<pre>*vitual dom it updates faster.
+*virtual dom is can't directly Update HTML.
+*virtual dom is a Updates the JSX if element Updates.</pre>
+<h2>REAL DOM</h2>
+<pre>* real dom it updates slow.
+*real dom is a can directly Update HTML.
+*real dom is Creates a new DOM if element Updates.
+</pre>
+<h1>9.)Write any three packages.</h1>
+<pre>*npx create-react-app Sample
+*npm install node-sass
+*npm start
+</pre>
+</body>
+</html>
